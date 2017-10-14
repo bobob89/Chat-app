@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.messages{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #d1d3ff;
+}
+
+.usersOnline{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #d1d3ff;
+}
+
+.descript {
+    width: 100%;
+    height: 600px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #d1d3ff;
+
+}
+
+.form-control{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.send{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+#messFromBase{
+    width: 40%;
+}
+
+#emptyFields {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.description-block{
+    margin-top: 10px;
+
+}
+.description{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid;
+    height: 100%;
+    border-radius: 5px;
+    border-color: darkgrey;
+}
+
+.message{
+    padding: 3px;
+    background-color: #c6ccff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.messageMe{
+    padding: 3px;
+    background-color: #cdffd2;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.time-left{
+    float: right;
+}
+
+
+
+
