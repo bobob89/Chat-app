@@ -48,29 +48,6 @@ body {
     border-radius: 3px;
 }
 
-
-#messFromBase{
-    width: 40%;
-}
-
-#emptyFields {
-    margin-top: 10px;
-    width: 100%;
-}
-
-.description-block{
-    margin-top: 10px;
-
-}
-.description{
-    margin-top: 10px;
-    padding: 10px;
-    border: 1px solid;
-    height: 100%;
-    border-radius: 5px;
-    border-color: darkgrey;
-}
-
 .message{
     padding: 3px;
     background-color: #c6ccff;
