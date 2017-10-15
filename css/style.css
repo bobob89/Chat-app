@@ -24,9 +24,21 @@ body {
     border-color: #d1d3ff;
 }
 
+.rooms {
+    width: 100%;
+    height: 300px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #d1d3ff;
+
+}
+
 .descript {
     width: 100%;
-    height: 600px;
+    height: 280px;
+    /*margin-top: 20px;*/
     padding-top: 10px;
     padding-right: 20px;
     border: 1px solid;

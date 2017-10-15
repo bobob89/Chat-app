@@ -1,8 +1,3 @@
-<?php
-session_start();
-$userName = isset($_SESSION['name']) ? $_SESSION['name'] : 'noUserName';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +24,6 @@ $userName = isset($_SESSION['name']) ? $_SESSION['name'] : 'noUserName';
                 <div id="users"></div>
             </div>
         </div>
-
 
         <div class="col-md-3">
             <h1 class="text-center">Description</h1>
