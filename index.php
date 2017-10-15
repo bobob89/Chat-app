@@ -26,30 +26,41 @@
         </div>
 
         <div class="col-md-3">
-            <h1 class="text-center">Description</h1>
+            <h1 class="text-center">Rooms</h1>
+            <div class="roomList">
+                <div id="rooms"></div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
             <div class="descript">
                 <ul>
-                    <li><h4>Write your Name and message</h4></li>
-                    <li><h4>You can send message by click "SEND" button or "Enter" key</h4></li>
-                    <li><h4>If you out or close your browser, you will not be online in 2 minutes</h4></li>
-                    <li><h4>Highlighting your name and messages</h4></li>
+                    <li><h6>Choose room</h6></li>
+                    <li><h6>Set your name and write your message bellow</h6></li>
+                    <li><h6>Send message by clicking "SEND" button or by pressing "Enter" key</h6></li>
+                    <li><h6>If you leave or close your browser tab, you will not be online in 2 minutes</h6></li>
+                    <li><h6>Highlighting your name and messages</h6></li>
+                    <li><h6>Click in any online user to block him</h6></li>
                 </ul>
             </div>
         </div>
 
-
     </div>
 
     <div class="row">
-            <div class="col-md-2">
-                <input class="form-control" id="username" value="<?php echo $_POST[username]; ?>" placeholder="Your name" required></input>
-            </div>
-            <div class="col-md-8">
-                <input class="form-control" id="message" placeholder="Type message here" required></input>
-            </div>
-            <div class="col-md-2 ">
-                <input class="btn send" id="send" type="submit" value="SEND">
-            </div>
+        <div class="col-md-2">
+            <input class="form-control" id="roomInput" value="<?php echo $_POST[room]; ?>" placeholder="Room" required></input>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" id="username" value="<?php echo $_POST[username]; ?>" placeholder="Your name" required></input>
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" id="message" placeholder="Type message here" required></input>
+        </div>
+        <div class="col-md-2 ">
+            <input class="btn send" id="send" type="submit" value="SEND">
+        </div>
     </div>
 
     <div class="row">

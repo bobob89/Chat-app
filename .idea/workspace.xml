@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="883ccb0f-f046-4d83-9bac-a83fff10c291" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/blockUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/getBlockedUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/getRooms.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/Settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/getMessages.php" afterPath="$PROJECT_DIR$/ajax/getMessages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/sendMessage.php" afterPath="$PROJECT_DIR$/ajax/sendMessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/setUserOnline.php" afterPath="$PROJECT_DIR$/ajax/setUserOnline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/Db.php" afterPath="$PROJECT_DIR$/class/Db.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/ChatIf.php" afterPath="$PROJECT_DIR$/interface/ChatIf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,61 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Db.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Db.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class/Db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="447">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
-                <marker date="1507999105544" expanded="true" signature="623:690" ph="INSERT INTO `messages`... " />
-                <marker date="1507999105544" expanded="true" signature="771:856" ph="SELECT * FRO... *" />
-                <marker date="1507999105544" expanded="true" signature="786:837" ph="SELECT * FRO... messages" />
-                <marker date="1507999105544" expanded="true" signature="936:963" ph="SELECT * FRO... onlineUsers" />
-                <marker date="1507999105544" expanded="true" signature="1123:1178" ph="SELECT `user... onlineUsers" />
-                <marker date="1507999105544" expanded="true" signature="1259:1335" ph="UPDATE `onli... " />
-                <marker date="1507999105544" expanded="true" signature="1395:1456" ph="INSERT INTO `onlineUsers`... " />
-                <marker date="1507999105544" expanded="true" signature="1547:1628" ph="DELETE FROM " />
+                <marker date="1508077921019" expanded="true" signature="398:419" ph="SELECT * FRO... rooms" />
+                <marker date="1508077921019" expanded="true" signature="507:575" ph="SELECT `id` rooms" />
+                <marker date="1508077921019" expanded="true" signature="775:853" ph="INSERT INTO `messages`... " />
+                <marker date="1508077921019" expanded="true" signature="941:1054" ph="SELECT * FRO... *" />
+                <marker date="1508077921019" expanded="true" signature="956:1035" ph="SELECT * FRO... messages" />
+                <marker date="1508077921019" expanded="true" signature="1134:1162" ph="SELECT * FRO... onlineUsers" />
+                <marker date="1508077921019" expanded="true" signature="1322:1378" ph="SELECT `user... onlineUsers" />
+                <marker date="1508077921019" expanded="true" signature="1459:1536" ph="UPDATE `onli... " />
+                <marker date="1508077921019" expanded="true" signature="1596:1658" ph="INSERT INTO `onlineUsers`... " />
+                <marker date="1508077921019" expanded="true" signature="1749:1831" ph="DELETE FROM " />
+                <marker date="1508077921019" expanded="true" signature="1949:1998" ph="DELETE FROM " />
+                <marker date="1508077921019" expanded="true" signature="2028:2074" ph="INSERT INTO `blocked_user`... " />
+                <marker date="1508077921019" expanded="true" signature="2214:2265" ph="SELECT * FRO... blocked_user" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class/Functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setUserOnline.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/setUserOnline.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="throwOfflineUsers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/throwOfflineUsers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -78,28 +52,8 @@
       <file leaf-file-name="ChatIf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/ChatIf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,14 +67,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/class/Db.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/ajax/getMessages.php" />
-        <option value="$PROJECT_DIR$/ajax/setUserOnline.php" />
         <option value="$PROJECT_DIR$/class/Functions.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/class/settings.php" />
+        <option value="$PROJECT_DIR$/class/Settings.php" />
+        <option value="$PROJECT_DIR$/ajax/getRooms.php" />
+        <option value="$PROJECT_DIR$/ajax/getMessages.php" />
+        <option value="$PROJECT_DIR$/ajax/blockUser.php" />
+        <option value="$PROJECT_DIR$/ajax/getBlockedUser.php" />
+        <option value="$PROJECT_DIR$/ajax/sendMessage.php" />
+        <option value="$PROJECT_DIR$/ajax/setUserOnline.php" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/class/Db.php" />
+        <option value="$PROJECT_DIR$/interface/ChatIf.php" />
       </list>
     </option>
   </component>
@@ -131,7 +92,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-111" />
     <option name="y" value="137" />
     <option name="width" value="1936" />
@@ -224,21 +185,22 @@
       <workItem from="1507999011525" duration="967000" />
       <workItem from="1508000574822" duration="76000" />
       <workItem from="1508001770975" duration="12000" />
-      <workItem from="1508040290426" duration="1810000" />
+      <workItem from="1508040290426" duration="20978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2865000" />
+    <option name="totallyTimeSpent" value="22033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -250,7 +212,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -270,14 +231,19 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1507999105544" expanded="true" signature="623:690" ph="INSERT INTO `messages`... " />
-            <marker date="1507999105544" expanded="true" signature="771:856" ph="SELECT * FRO... *" />
-            <marker date="1507999105544" expanded="true" signature="786:837" ph="SELECT * FRO... messages" />
-            <marker date="1507999105544" expanded="true" signature="936:963" ph="SELECT * FRO... onlineUsers" />
-            <marker date="1507999105544" expanded="true" signature="1123:1178" ph="SELECT `user... onlineUsers" />
-            <marker date="1507999105544" expanded="true" signature="1259:1335" ph="UPDATE `onli... " />
-            <marker date="1507999105544" expanded="true" signature="1395:1456" ph="INSERT INTO `onlineUsers`... " />
-            <marker date="1507999105544" expanded="true" signature="1547:1628" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="398:419" ph="SELECT * FRO... rooms" />
+            <marker date="1508077921019" expanded="true" signature="507:575" ph="SELECT `id` rooms" />
+            <marker date="1508077921019" expanded="true" signature="775:853" ph="INSERT INTO `messages`... " />
+            <marker date="1508077921019" expanded="true" signature="941:1054" ph="SELECT * FRO... *" />
+            <marker date="1508077921019" expanded="true" signature="956:1035" ph="SELECT * FRO... messages" />
+            <marker date="1508077921019" expanded="true" signature="1134:1162" ph="SELECT * FRO... onlineUsers" />
+            <marker date="1508077921019" expanded="true" signature="1322:1378" ph="SELECT `user... onlineUsers" />
+            <marker date="1508077921019" expanded="true" signature="1459:1536" ph="UPDATE `onli... " />
+            <marker date="1508077921019" expanded="true" signature="1596:1658" ph="INSERT INTO `onlineUsers`... " />
+            <marker date="1508077921019" expanded="true" signature="1749:1831" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="1949:1998" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="2028:2074" ph="INSERT INTO `blocked_user`... " />
+            <marker date="1508077921019" expanded="true" signature="2214:2265" ph="SELECT * FRO... blocked_user" />
           </folding>
         </state>
       </provider>
@@ -354,14 +320,19 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1507999105544" expanded="true" signature="623:690" ph="INSERT INTO `messages`... " />
-            <marker date="1507999105544" expanded="true" signature="771:856" ph="SELECT * FRO... *" />
-            <marker date="1507999105544" expanded="true" signature="786:837" ph="SELECT * FRO... messages" />
-            <marker date="1507999105544" expanded="true" signature="936:963" ph="SELECT * FRO... onlineUsers" />
-            <marker date="1507999105544" expanded="true" signature="1123:1178" ph="SELECT `user... onlineUsers" />
-            <marker date="1507999105544" expanded="true" signature="1259:1335" ph="UPDATE `onli... " />
-            <marker date="1507999105544" expanded="true" signature="1395:1456" ph="INSERT INTO `onlineUsers`... " />
-            <marker date="1507999105544" expanded="true" signature="1547:1628" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="398:419" ph="SELECT * FRO... rooms" />
+            <marker date="1508077921019" expanded="true" signature="507:575" ph="SELECT `id` rooms" />
+            <marker date="1508077921019" expanded="true" signature="775:853" ph="INSERT INTO `messages`... " />
+            <marker date="1508077921019" expanded="true" signature="941:1054" ph="SELECT * FRO... *" />
+            <marker date="1508077921019" expanded="true" signature="956:1035" ph="SELECT * FRO... messages" />
+            <marker date="1508077921019" expanded="true" signature="1134:1162" ph="SELECT * FRO... onlineUsers" />
+            <marker date="1508077921019" expanded="true" signature="1322:1378" ph="SELECT `user... onlineUsers" />
+            <marker date="1508077921019" expanded="true" signature="1459:1536" ph="UPDATE `onli... " />
+            <marker date="1508077921019" expanded="true" signature="1596:1658" ph="INSERT INTO `onlineUsers`... " />
+            <marker date="1508077921019" expanded="true" signature="1749:1831" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="1949:1998" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="2028:2074" ph="INSERT INTO `blocked_user`... " />
+            <marker date="1508077921019" expanded="true" signature="2214:2265" ph="SELECT * FRO... blocked_user" />
           </folding>
         </state>
       </provider>
@@ -438,14 +409,19 @@
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1507999105544" expanded="true" signature="623:690" ph="INSERT INTO `messages`... " />
-            <marker date="1507999105544" expanded="true" signature="771:856" ph="SELECT * FRO... *" />
-            <marker date="1507999105544" expanded="true" signature="786:837" ph="SELECT * FRO... messages" />
-            <marker date="1507999105544" expanded="true" signature="936:963" ph="SELECT * FRO... onlineUsers" />
-            <marker date="1507999105544" expanded="true" signature="1123:1178" ph="SELECT `user... onlineUsers" />
-            <marker date="1507999105544" expanded="true" signature="1259:1335" ph="UPDATE `onli... " />
-            <marker date="1507999105544" expanded="true" signature="1395:1456" ph="INSERT INTO `onlineUsers`... " />
-            <marker date="1507999105544" expanded="true" signature="1547:1628" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="398:419" ph="SELECT * FRO... rooms" />
+            <marker date="1508077921019" expanded="true" signature="507:575" ph="SELECT `id` rooms" />
+            <marker date="1508077921019" expanded="true" signature="775:853" ph="INSERT INTO `messages`... " />
+            <marker date="1508077921019" expanded="true" signature="941:1054" ph="SELECT * FRO... *" />
+            <marker date="1508077921019" expanded="true" signature="956:1035" ph="SELECT * FRO... messages" />
+            <marker date="1508077921019" expanded="true" signature="1134:1162" ph="SELECT * FRO... onlineUsers" />
+            <marker date="1508077921019" expanded="true" signature="1322:1378" ph="SELECT `user... onlineUsers" />
+            <marker date="1508077921019" expanded="true" signature="1459:1536" ph="UPDATE `onli... " />
+            <marker date="1508077921019" expanded="true" signature="1596:1658" ph="INSERT INTO `onlineUsers`... " />
+            <marker date="1508077921019" expanded="true" signature="1749:1831" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="1949:1998" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="2028:2074" ph="INSERT INTO `blocked_user`... " />
+            <marker date="1508077921019" expanded="true" signature="2214:2265" ph="SELECT * FRO... blocked_user" />
           </folding>
         </state>
       </provider>
@@ -525,66 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/getMessages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/getOnlineUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/sendMessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/Functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/ChatIf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/setUserOnline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,20 +519,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/Db.php">
+    <entry file="file://$PROJECT_DIR$/db/chat.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1507999105544" expanded="true" signature="623:690" ph="INSERT INTO `messages`... " />
-            <marker date="1507999105544" expanded="true" signature="771:856" ph="SELECT * FRO... *" />
-            <marker date="1507999105544" expanded="true" signature="786:837" ph="SELECT * FRO... messages" />
-            <marker date="1507999105544" expanded="true" signature="936:963" ph="SELECT * FRO... onlineUsers" />
-            <marker date="1507999105544" expanded="true" signature="1123:1178" ph="SELECT `user... onlineUsers" />
-            <marker date="1507999105544" expanded="true" signature="1259:1335" ph="UPDATE `onli... " />
-            <marker date="1507999105544" expanded="true" signature="1395:1456" ph="INSERT INTO `onlineUsers`... " />
-            <marker date="1507999105544" expanded="true" signature="1547:1628" ph="DELETE FROM " />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1844">
+          <caret line="491" column="20" lean-forward="false" selection-start-line="491" selection-start-column="20" selection-end-line="491" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -624,19 +551,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/class/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/getRooms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/getMessages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/getOnlineUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/getBlockedUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/setUserOnline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/blockUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="612">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="144" column="62" lean-forward="false" selection-start-line="144" selection-start-column="56" selection-end-line="144" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="452">
+          <caret line="91" column="20" lean-forward="false" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/sendMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/ChatIf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1508077921019" expanded="true" signature="398:419" ph="SELECT * FRO... rooms" />
+            <marker date="1508077921019" expanded="true" signature="507:575" ph="SELECT `id` rooms" />
+            <marker date="1508077921019" expanded="true" signature="775:853" ph="INSERT INTO `messages`... " />
+            <marker date="1508077921019" expanded="true" signature="941:1054" ph="SELECT * FRO... *" />
+            <marker date="1508077921019" expanded="true" signature="956:1035" ph="SELECT * FRO... messages" />
+            <marker date="1508077921019" expanded="true" signature="1134:1162" ph="SELECT * FRO... onlineUsers" />
+            <marker date="1508077921019" expanded="true" signature="1322:1378" ph="SELECT `user... onlineUsers" />
+            <marker date="1508077921019" expanded="true" signature="1459:1536" ph="UPDATE `onli... " />
+            <marker date="1508077921019" expanded="true" signature="1596:1658" ph="INSERT INTO `onlineUsers`... " />
+            <marker date="1508077921019" expanded="true" signature="1749:1831" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="1949:1998" ph="DELETE FROM " />
+            <marker date="1508077921019" expanded="true" signature="2028:2074" ph="INSERT INTO `blocked_user`... " />
+            <marker date="1508077921019" expanded="true" signature="2214:2265" ph="SELECT * FRO... blocked_user" />
+          </folding>
         </state>
       </provider>
     </entry>

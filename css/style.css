@@ -24,7 +24,7 @@ body {
     border-color: #d1d3ff;
 }
 
-.rooms {
+.roomList {
     width: 100%;
     height: 300px;
     padding-top: 10px;
@@ -38,7 +38,7 @@ body {
 .descript {
     width: 100%;
     height: 280px;
-    /*margin-top: 20px;*/
+    margin-top: 20px;
     padding-top: 10px;
     padding-right: 20px;
     border: 1px solid;
@@ -58,28 +58,61 @@ body {
     margin-top: 10px;
     width: 100%;
     border-radius: 3px;
+    background-color: #b1ff5a;
+    border-color: #74747f;
 }
 
 .message{
-    padding: 3px;
     background-color: #c6ccff;
     margin: 5px;
-    padding: 10px;
+    padding: 13px;
     border-radius: 5px;
 }
 
 .messageMe{
-    padding: 3px;
     background-color: #cdffd2;
     margin: 5px;
-    padding: 10px;
+    padding: 13px;
     border-radius: 5px;
+}
+
+.user{
+    background-color: #c6ccff;
+    margin: 5px;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.userMe{
+    background-color: #cdffd2;
+    margin: 5px;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .time-left{
     float: right;
 }
 
+#emptyFields{
+    margin-top: 10px;
+    /*padding-top: 10px;*/
+}
+
+
+.eachRoom{
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    background-color: #cdffd2;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
 
 
 
